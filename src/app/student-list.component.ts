@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'student-list',
-    template: `
-    <student [name]="studentNames[0]" (studentSelected)="onStudentSelcted($event)"></student>
-    `
+    template: ``
 })
 
 

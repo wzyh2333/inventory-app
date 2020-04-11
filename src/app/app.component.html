@@ -1,8 +1,3 @@
-<p>{{title + ' abc'}}</p>
-
-<student-list></student-list>
-<input type="text" [value]="title" (input)="onInput($event)">
-<a [href]="url">百度</a>
-<input type="button" value="按钮" (click)="onBtnClicked()">
-<img [src]="imgUrl">
-<img src="{{imgUrl}}">
+<div class="d-flex justify-content-center">
+    <products-list [productsList]="products" (productSelected)=" onProductSelected($event)"></products-list>
+</div>
